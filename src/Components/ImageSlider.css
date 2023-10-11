@@ -1,0 +1,41 @@
+/* src/components/ImageSlider.css */
+.image-slider {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .slider-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .slider-button {
+    font-size: 15px;
+    padding: 5px 12px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    color:black;
+  }
+  
+  .prev {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .next {
+    position: absolute;
+    right: 0;
+    
+  }
+
+  .image-slider button{
+    border-radius: 6px;
+  }
+
+  .slider-button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  

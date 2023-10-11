@@ -1,3 +1,15 @@
+/* Apply Josefin Sans to all body text */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/purple-bokeh-vector-digital-business-background_53876-110566.jpg?w=900&t=st=1696913965~exp=1696914565~hmac=db246a601470f082d43488aabc612e16510f87a2eed55e057f24c42c335a8828'); /* Replace with your image URL */
+  background-size: cover; /* This will cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-attachment: fixed; /* Fix the background image in place */
+  /* Additional background properties can be added as needed */
+}
+
+
+
 .App {
   text-align: center;
 }
