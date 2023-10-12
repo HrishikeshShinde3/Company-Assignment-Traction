@@ -1,12 +1,28 @@
 import React,{useState} from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 import './Header.css'
 
 
 function Header() {
-  
+
+  const navigate = useNavigate();
+
+  function handleService(){
+    navigate('/servicespage')
+  }
+
+  function handleContactUs(){
+    navigate('/contactuspage')
+  }
+
+  function handleHome(){
+    navigate('/')
+  }
+
+
+
   return (
     <section className="nav">
       <h1>TRACTION SHASTRA</h1>
@@ -37,11 +53,11 @@ function Header() {
         <span className="m">S</span>
       </h3>
       <div className="nav-container">
-        <a className="nav-tab" href="Home">Home</a>
-        <a className="nav-tab" href="About us">About us</a>
-        <a className="nav-tab"  href="Services">Services</a>
-        <a className="nav-tab" href="Our work">Our work</a>
-        <a className="nav-tab" href="contact-us">ContactUs</a>
+        <a className="nav-tab" onClick={handleHome}>Home</a>
+        <a className="nav-tab" onClick={handleHome}>About us</a>
+        <a className="nav-tab" onClick={handleService}  >Services</a>
+        <a className="nav-tab" onClick={handleHome}>Our work</a>
+        <a className="nav-tab" onClick={handleContactUs}>ContactUs</a>
         <span className="nav-tab-slider"></span>
 
         
