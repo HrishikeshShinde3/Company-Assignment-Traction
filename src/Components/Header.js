@@ -41,7 +41,7 @@ function Header() {
         <a className="nav-tab" href="About us">About us</a>
         <a className="nav-tab"  href="Services">Services</a>
         <a className="nav-tab" href="Our work">Our work</a>
-        <a className="nav-tab" href="contact-us">Contact us</a>
+        <a className="nav-tab" href="contact-us">ContactUs</a>
         <span className="nav-tab-slider"></span>
 
         

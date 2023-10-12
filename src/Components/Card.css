@@ -1,6 +1,7 @@
 /* Card Container */
 .card-container {
     perspective: 1000px; 
+    
   
     .card {
       width: 350px;

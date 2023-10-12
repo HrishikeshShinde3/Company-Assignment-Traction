@@ -1,14 +1,13 @@
 /* src/components/ImageSlider.css */
 .image-slider {
     position: relative;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     text-align: center;
   }
   
   .slider-image {
     max-width: 100%;
-    height: auto;
   }
   
   .slider-button {
@@ -28,6 +27,7 @@
   .next {
     position: absolute;
     right: 0;
+    margin-top: -50px;
     
   }
 
